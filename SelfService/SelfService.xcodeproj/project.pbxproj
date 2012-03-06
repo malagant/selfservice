@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF50969C1501026700CE11F4 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF50969A1501026700CE11F4 /* LoginViewController.m */; };
+		CF50969D1501026700CE11F4 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF50969B1501026700CE11F4 /* LoginViewController.xib */; };
+		CF5096A11501034D00CE11F4 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF50969F1501034D00CE11F4 /* RegisterViewController.m */; };
+		CF5096A21501034D00CE11F4 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF5096A01501034D00CE11F4 /* RegisterViewController.xib */; };
+		CF5096A61501061500CE11F4 /* RegistrationDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5096A51501061500CE11F4 /* RegistrationDTO.m */; };
+		CFCA7E55150375860073B31E /* libRestKitNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCA7E3D1503745E0073B31E /* libRestKitNetwork.a */; };
+		CFCA7E561503758D0073B31E /* libRestKitObjectMapping.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCA7E3F1503745E0073B31E /* libRestKitObjectMapping.a */; };
+		CFCA7E57150375990073B31E /* libRestKitSupport.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCA7E411503745E0073B31E /* libRestKitSupport.a */; };
+		CFCA7E58150375A40073B31E /* libRestKitJSONParserJSONKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCA7E491503745E0073B31E /* libRestKitJSONParserJSONKit.a */; };
+		CFCA7E59150375AC0073B31E /* libRestKitXMLParserLibxml.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCA7E4B1503745E0073B31E /* libRestKitXMLParserLibxml.a */; };
+		CFCA7E5C150375DC0073B31E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCA7E5B150375DC0073B31E /* CFNetwork.framework */; };
+		CFCA7E5E150375EA0073B31E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCA7E5D150375EA0073B31E /* MobileCoreServices.framework */; };
+		CFCA7E60150375F70073B31E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCA7E5F150375F70073B31E /* Security.framework */; };
+		CFCA7E62150375FE0073B31E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCA7E61150375FE0073B31E /* SystemConfiguration.framework */; };
+		CFCA7E64150376060073B31E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCA7E63150376060073B31E /* QuartzCore.framework */; };
+		CFCA7E661503760F0073B31E /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCA7E651503760F0073B31E /* libxml2.dylib */; };
+		CFD4766A14FF751900E3ABBE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD4766914FF751900E3ABBE /* UIKit.framework */; };
+		CFD4766C14FF751900E3ABBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD4766B14FF751900E3ABBE /* Foundation.framework */; };
+		CFD4766E14FF751900E3ABBE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD4766D14FF751900E3ABBE /* CoreGraphics.framework */; };
+		CFD4767414FF751900E3ABBE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CFD4767214FF751900E3ABBE /* InfoPlist.strings */; };
+		CFD4767614FF751900E3ABBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD4767514FF751900E3ABBE /* main.m */; };
+		CFD4767A14FF751900E3ABBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD4767914FF751900E3ABBE /* AppDelegate.m */; };
+		CFD4768814FF75B300E3ABBE /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD4768714FF75B300E3ABBE /* Constants.m */; };
+		CFD4769C14FF76EE00E3ABBE /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CFD4769B14FF76EE00E3ABBE /* Settings.bundle */; };
+		CFEC4E201500D7AC007876FB /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFEC4E1E1500D7AC007876FB /* MainViewController.m */; };
+		CFEC4E211500D7AC007876FB /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFEC4E1F1500D7AC007876FB /* MainViewController.xib */; };
+		CFEC4E241500D9B1007876FB /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFEC4E231500D9B1007876FB /* logo.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFCA7E3C1503745E0073B31E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFCA7E281503745E0073B31E /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 253A07FC1255161B00976E89;
+			remoteInfo = RestKitNetwork;
+		};
+		CFCA7E3E1503745E0073B31E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFCA7E281503745E0073B31E /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 253A08031255162C00976E89;
+			remoteInfo = RestKitObjectMapping;
+		};
+		CFCA7E401503745E0073B31E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFCA7E281503745E0073B31E /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 253A080C12551D3000976E89;
+			remoteInfo = RestKitSupport;
+		};
+		CFCA7E421503745E0073B31E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFCA7E281503745E0073B31E /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 20808DBD13DE8CDC000A156A;
+			remoteInfo = "RestKitJSONParser+NXJSON";
+		};
+		CFCA7E441503745E0073B31E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFCA7E281503745E0073B31E /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2590E64F125231F600531FA8;
+			remoteInfo = "RestKitJSONParser+YAJL";
+		};
+		CFCA7E461503745E0073B31E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFCA7E281503745E0073B31E /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2590E66B1252353700531FA8;
+			remoteInfo = "RestKitJSONParser+SBJSON";
+		};
+		CFCA7E481503745E0073B31E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFCA7E281503745E0073B31E /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 73057FD11331AD2E001908EE;
+			remoteInfo = "RestKitJSONParser+JSONKit";
+		};
+		CFCA7E4A1503745E0073B31E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFCA7E281503745E0073B31E /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25BD43BD1340315800DBACDD;
+			remoteInfo = "RestKitXMLParser+Libxml";
+		};
+		CFCA7E4C1503745E0073B31E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFCA7E281503745E0073B31E /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 253A081412551D5300976E89;
+			remoteInfo = RestKitCoreData;
+		};
+		CFCA7E4E1503745E0073B31E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFCA7E281503745E0073B31E /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2523360511E79F090048F9B4;
+			remoteInfo = RestKitThree20;
+		};
+		CFCA7E501503745E0073B31E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFCA7E281503745E0073B31E /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3F6C39A510FE5C95008F47C5;
+			remoteInfo = UISpec;
+		};
+		CFCA7E53150375450073B31E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFCA7E281503745E0073B31E /* RestKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 255B7588133BABBF00ED76AD;
+			remoteInfo = RestKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF5096991501026700CE11F4 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		CF50969A1501026700CE11F4 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		CF50969B1501026700CE11F4 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		CF50969E1501034D00CE11F4 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		CF50969F1501034D00CE11F4 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		CF5096A01501034D00CE11F4 /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		CF5096A41501061500CE11F4 /* RegistrationDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationDTO.h; sourceTree = "<group>"; };
+		CF5096A51501061500CE11F4 /* RegistrationDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationDTO.m; sourceTree = "<group>"; };
+		CFCA7E281503745E0073B31E /* RestKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RestKit.xcodeproj; path = RestKit/RestKit.xcodeproj; sourceTree = "<group>"; };
+		CFCA7E5B150375DC0073B31E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		CFCA7E5D150375EA0073B31E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		CFCA7E5F150375F70073B31E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		CFCA7E61150375FE0073B31E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CFCA7E63150376060073B31E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CFCA7E651503760F0073B31E /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		CFD4766514FF751900E3ABBE /* SelfService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelfService.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFD4766914FF751900E3ABBE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CFD4766B14FF751900E3ABBE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CFD4766D14FF751900E3ABBE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CFD4767114FF751900E3ABBE /* SelfService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SelfService-Info.plist"; sourceTree = "<group>"; };
+		CFD4767314FF751900E3ABBE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CFD4767514FF751900E3ABBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CFD4767714FF751900E3ABBE /* SelfService-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SelfService-Prefix.pch"; sourceTree = "<group>"; };
+		CFD4767814FF751900E3ABBE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CFD4767914FF751900E3ABBE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CFD4768614FF75B300E3ABBE /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		CFD4768714FF75B300E3ABBE /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		CFD4769B14FF76EE00E3ABBE /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		CFEC4E1D1500D7AC007876FB /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		CFEC4E1E1500D7AC007876FB /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		CFEC4E1F1500D7AC007876FB /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		CFEC4E231500D9B1007876FB /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFD4766214FF751900E3ABBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFCA7E661503760F0073B31E /* libxml2.dylib in Frameworks */,
+				CFCA7E64150376060073B31E /* QuartzCore.framework in Frameworks */,
+				CFCA7E62150375FE0073B31E /* SystemConfiguration.framework in Frameworks */,
+				CFCA7E60150375F70073B31E /* Security.framework in Frameworks */,
+				CFCA7E5E150375EA0073B31E /* MobileCoreServices.framework in Frameworks */,
+				CFCA7E5C150375DC0073B31E /* CFNetwork.framework in Frameworks */,
+				CFCA7E59150375AC0073B31E /* libRestKitXMLParserLibxml.a in Frameworks */,
+				CFCA7E58150375A40073B31E /* libRestKitJSONParserJSONKit.a in Frameworks */,
+				CFCA7E57150375990073B31E /* libRestKitSupport.a in Frameworks */,
+				CFCA7E561503758D0073B31E /* libRestKitObjectMapping.a in Frameworks */,
+				CFCA7E55150375860073B31E /* libRestKitNetwork.a in Frameworks */,
+				CFD4766A14FF751900E3ABBE /* UIKit.framework in Frameworks */,
+				CFD4766C14FF751900E3ABBE /* Foundation.framework in Frameworks */,
+				CFD4766E14FF751900E3ABBE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF5096A3150105E400CE11F4 /* RESTMappings */ = {
+			isa = PBXGroup;
+			children = (
+				CF5096A41501061500CE11F4 /* RegistrationDTO.h */,
+				CF5096A51501061500CE11F4 /* RegistrationDTO.m */,
+			);
+			name = RESTMappings;
+			sourceTree = "<group>";
+		};
+		CFCA7E291503745E0073B31E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFCA7E3D1503745E0073B31E /* libRestKitNetwork.a */,
+				CFCA7E3F1503745E0073B31E /* libRestKitObjectMapping.a */,
+				CFCA7E411503745E0073B31E /* libRestKitSupport.a */,
+				CFCA7E431503745E0073B31E /* libRestKitJSONParser+NXJSON.a */,
+				CFCA7E451503745E0073B31E /* libRestKitJSONParserYAJL.a */,
+				CFCA7E471503745E0073B31E /* libRestKitJSONParserSBJSON.a */,
+				CFCA7E491503745E0073B31E /* libRestKitJSONParserJSONKit.a */,
+				CFCA7E4B1503745E0073B31E /* libRestKitXMLParserLibxml.a */,
+				CFCA7E4D1503745E0073B31E /* libRestKitCoreData.a */,
+				CFCA7E4F1503745E0073B31E /* libRestKitThree20.a */,
+				CFCA7E511503745E0073B31E /* UISpec.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFD4765A14FF751900E3ABBE = {
+			isa = PBXGroup;
+			children = (
+				CFCA7E651503760F0073B31E /* libxml2.dylib */,
+				CFCA7E63150376060073B31E /* QuartzCore.framework */,
+				CFCA7E61150375FE0073B31E /* SystemConfiguration.framework */,
+				CFCA7E5F150375F70073B31E /* Security.framework */,
+				CFCA7E5D150375EA0073B31E /* MobileCoreServices.framework */,
+				CFCA7E5B150375DC0073B31E /* CFNetwork.framework */,
+				CFCA7E281503745E0073B31E /* RestKit.xcodeproj */,
+				CFEC4E221500D98D007876FB /* Images */,
+				CFD4769B14FF76EE00E3ABBE /* Settings.bundle */,
+				CFD4766F14FF751900E3ABBE /* SelfService */,
+				CFD4766814FF751900E3ABBE /* Frameworks */,
+				CFD4766614FF751900E3ABBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFD4766614FF751900E3ABBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFD4766514FF751900E3ABBE /* SelfService.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFD4766814FF751900E3ABBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFD4766914FF751900E3ABBE /* UIKit.framework */,
+				CFD4766B14FF751900E3ABBE /* Foundation.framework */,
+				CFD4766D14FF751900E3ABBE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFD4766F14FF751900E3ABBE /* SelfService */ = {
+			isa = PBXGroup;
+			children = (
+				CF5096A3150105E400CE11F4 /* RESTMappings */,
+				CF50969E1501034D00CE11F4 /* RegisterViewController.h */,
+				CF50969F1501034D00CE11F4 /* RegisterViewController.m */,
+				CF5096A01501034D00CE11F4 /* RegisterViewController.xib */,
+				CF5096991501026700CE11F4 /* LoginViewController.h */,
+				CF50969A1501026700CE11F4 /* LoginViewController.m */,
+				CF50969B1501026700CE11F4 /* LoginViewController.xib */,
+				CFEC4E1D1500D7AC007876FB /* MainViewController.h */,
+				CFEC4E1E1500D7AC007876FB /* MainViewController.m */,
+				CFEC4E1F1500D7AC007876FB /* MainViewController.xib */,
+				CFD4768614FF75B300E3ABBE /* Constants.h */,
+				CFD4768714FF75B300E3ABBE /* Constants.m */,
+				CFD4767814FF751900E3ABBE /* AppDelegate.h */,
+				CFD4767914FF751900E3ABBE /* AppDelegate.m */,
+				CFD4767014FF751900E3ABBE /* Supporting Files */,
+			);
+			path = SelfService;
+			sourceTree = "<group>";
+		};
+		CFD4767014FF751900E3ABBE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFD4767114FF751900E3ABBE /* SelfService-Info.plist */,
+				CFD4767214FF751900E3ABBE /* InfoPlist.strings */,
+				CFD4767514FF751900E3ABBE /* main.m */,
+				CFD4767714FF751900E3ABBE /* SelfService-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFEC4E221500D98D007876FB /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CFEC4E231500D9B1007876FB /* logo.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFD4766414FF751900E3ABBE /* SelfService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFD4768314FF751900E3ABBE /* Build configuration list for PBXNativeTarget "SelfService" */;
+			buildPhases = (
+				CFD4766114FF751900E3ABBE /* Sources */,
+				CFD4766214FF751900E3ABBE /* Frameworks */,
+				CFD4766314FF751900E3ABBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFCA7E54150375450073B31E /* PBXTargetDependency */,
+			);
+			name = SelfService;
+			productName = SelfService;
+			productReference = CFD4766514FF751900E3ABBE /* SelfService.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFD4765C14FF751900E3ABBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = CFD4765F14FF751900E3ABBE /* Build configuration list for PBXProject "SelfService" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CFD4765A14FF751900E3ABBE;
+			productRefGroup = CFD4766614FF751900E3ABBE /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CFCA7E291503745E0073B31E /* Products */;
+					ProjectRef = CFCA7E281503745E0073B31E /* RestKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				CFD4766414FF751900E3ABBE /* SelfService */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		CFCA7E3D1503745E0073B31E /* libRestKitNetwork.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKitNetwork.a;
+			remoteRef = CFCA7E3C1503745E0073B31E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CFCA7E3F1503745E0073B31E /* libRestKitObjectMapping.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKitObjectMapping.a;
+			remoteRef = CFCA7E3E1503745E0073B31E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CFCA7E411503745E0073B31E /* libRestKitSupport.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKitSupport.a;
+			remoteRef = CFCA7E401503745E0073B31E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CFCA7E431503745E0073B31E /* libRestKitJSONParser+NXJSON.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			name = "libRestKitJSONParser+NXJSON.a";
+			path = libRestKitJSONParserNXJSON.a;
+			remoteRef = CFCA7E421503745E0073B31E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CFCA7E451503745E0073B31E /* libRestKitJSONParserYAJL.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKitJSONParserYAJL.a;
+			remoteRef = CFCA7E441503745E0073B31E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CFCA7E471503745E0073B31E /* libRestKitJSONParserSBJSON.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKitJSONParserSBJSON.a;
+			remoteRef = CFCA7E461503745E0073B31E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CFCA7E491503745E0073B31E /* libRestKitJSONParserJSONKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKitJSONParserJSONKit.a;
+			remoteRef = CFCA7E481503745E0073B31E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CFCA7E4B1503745E0073B31E /* libRestKitXMLParserLibxml.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKitXMLParserLibxml.a;
+			remoteRef = CFCA7E4A1503745E0073B31E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CFCA7E4D1503745E0073B31E /* libRestKitCoreData.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKitCoreData.a;
+			remoteRef = CFCA7E4C1503745E0073B31E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CFCA7E4F1503745E0073B31E /* libRestKitThree20.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKitThree20.a;
+			remoteRef = CFCA7E4E1503745E0073B31E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CFCA7E511503745E0073B31E /* UISpec.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = UISpec.app;
+			remoteRef = CFCA7E501503745E0073B31E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFD4766314FF751900E3ABBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD4767414FF751900E3ABBE /* InfoPlist.strings in Resources */,
+				CFD4769C14FF76EE00E3ABBE /* Settings.bundle in Resources */,
+				CFEC4E211500D7AC007876FB /* MainViewController.xib in Resources */,
+				CFEC4E241500D9B1007876FB /* logo.jpg in Resources */,
+				CF50969D1501026700CE11F4 /* LoginViewController.xib in Resources */,
+				CF5096A21501034D00CE11F4 /* RegisterViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFD4766114FF751900E3ABBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD4767614FF751900E3ABBE /* main.m in Sources */,
+				CFD4767A14FF751900E3ABBE /* AppDelegate.m in Sources */,
+				CFD4768814FF75B300E3ABBE /* Constants.m in Sources */,
+				CFEC4E201500D7AC007876FB /* MainViewController.m in Sources */,
+				CF50969C1501026700CE11F4 /* LoginViewController.m in Sources */,
+				CF5096A11501034D00CE11F4 /* RegisterViewController.m in Sources */,
+				CF5096A61501061500CE11F4 /* RegistrationDTO.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFCA7E54150375450073B31E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RestKit;
+			targetProxy = CFCA7E53150375450073B31E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFD4767214FF751900E3ABBE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFD4767314FF751900E3ABBE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFD4768114FF751900E3ABBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CFD4768214FF751900E3ABBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFD4768414FF751900E3ABBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SelfService/SelfService-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SOURCE_ROOT)/RestKit/Build";
+				INFOPLIST_FILE = "SelfService/SelfService-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/RestKit/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CFD4768514FF751900E3ABBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SelfService/SelfService-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SOURCE_ROOT)/RestKit/Build";
+				INFOPLIST_FILE = "SelfService/SelfService-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFD4765F14FF751900E3ABBE /* Build configuration list for PBXProject "SelfService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFD4768114FF751900E3ABBE /* Debug */,
+				CFD4768214FF751900E3ABBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFD4768314FF751900E3ABBE /* Build configuration list for PBXNativeTarget "SelfService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFD4768414FF751900E3ABBE /* Debug */,
+				CFD4768514FF751900E3ABBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFD4765C14FF751900E3ABBE /* Project object */;
+}

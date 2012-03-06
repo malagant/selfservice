@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>PreferenceSpecifiers</key>
+        <array>
+            <dict>
+                <key>Type</key>
+                <string>PSGroupSpecifier</string>
+                <key>Title</key>
+                <string>JAX Demo</string>
+            </dict>
+            <dict>
+                <key>Type</key>
+                <string>PSToggleSwitchSpecifier</string>
+                <key>Title</key>
+                <string>Soundlogo</string>
+                <key>Key</key>
+                <string>enable_soundlogo</string>
+                <key>DefaultValue</key>
+                <true/>
+            </dict>
+            <dict>
+                <key>Type</key>
+                <string>PSToggleSwitchSpecifier</string>
+                <key>Title</key>
+                <string>Status Sounds</string>
+                <key>Key</key>
+                <string>enable_status_sound</string>
+                <key>DefaultValue</key>
+                <true/>
+            </dict>
+            <dict>
+                <key>Type</key>
+                <string>PSToggleSwitchSpecifier</string>
+                <key>Title</key>
+                <string>Smooth Sounds</string>
+                <key>Key</key>
+                <string>switch_logo_sound</string>
+                <key>DefaultValue</key>
+                <true/>
+            </dict>
+            <dict>
+                <key>DefaultValue</key>
+                <string>XXXX-XXXX-XXXX</string>
+                <key>Type</key>
+                <string>PSTextFieldSpecifier</string>
+                <key>Title</key>
+                <string>Device ID</string>
+                <key>Key</key>
+                <string>device_id</string>
+            </dict>
+            <dict>
+                <key>DefaultValue</key>
+                <string>motu@example.com</string>
+                <key>Type</key>
+                <string>PSTextFieldSpecifier</string>
+                <key>Title</key>
+                <string>Username</string>
+                <key>Key</key>
+                <string>username</string>
+            </dict>
+            <dict>
+                <key>DefaultValue</key>
+                <string>test123</string>
+                <key>Type</key>
+                <string>PSTextFieldSpecifier</string>
+                <key>Title</key>
+                <string>Password</string>
+                <key>Key</key>
+                <string>password</string>
+            </dict>
+            <dict>
+                <key>DefaultValue</key>
+                <string>http://192.168.1.160:8080/selfservice/api</string>
+                <key>Type</key>
+                <string>PSTextFieldSpecifier</string>
+                <key>Title</key>
+                <string>Server URL</string>
+                <key>Key</key>
+                <string>server_base_url</string>
+            </dict>
+        </array>
+        <key>StringsTable</key>
+        <string>Root</string>
+    </dict>
+</plist>

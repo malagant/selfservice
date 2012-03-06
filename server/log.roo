@@ -1,0 +1,30 @@
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log opened at 2012-03-04 21:57:17
+hint
+project --topLevelPackage article.jm.selfservice 
+hint
+jpa setup --provider HIBERNATE --database HYPERSONIC_IN_MEMORY 
+hint
+entity jpa --class ~.domain.Registration --activeRecord false
+hint 
+field string --fieldName firstName
+field string --fieldName lastName
+field string email
+field string --fieldName password
+hint
+repository jpa --interface ~.repositories.RegistrationRepository
+service --interface ~.domain.RegistrationService
+exit
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log closed at 2012-03-04 22:13:54
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log opened at 2012-03-04 22:17:10
+exit
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log closed at 2012-03-05 08:45:49
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log opened at 2012-03-05 10:26:22
+exit
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log closed at 2012-03-05 10:26:37
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log opened at 2012-03-05 15:37:30
+web mvc json setup
+exit
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log closed at 2012-03-05 15:47:14
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log opened at 2012-03-05 16:21:34
+exit
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log closed at 2012-03-05 16:23:07

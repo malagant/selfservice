@@ -402,7 +402,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		20808DBD13DE8CDC000A156A /* libRestKitJSONParser+NXJSON.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libRestKitJSONParser+NXJSON.a"; path = libRestKitJSONParserNXJSON.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		20808DBD13DE8CDC000A156A /* libRestKitJSONParserNXJSON.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRestKitJSONParserNXJSON.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		20808DF613DE90F5000A156A /* NSError+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSError+Extensions.h"; path = "Vendor/NXJSON/NSError+Extensions.h"; sourceTree = "<group>"; };
 		20808DF713DE90F5000A156A /* NSError+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSError+Extensions.m"; path = "Vendor/NXJSON/NSError+Extensions.m"; sourceTree = "<group>"; };
 		20808DF813DE90F5000A156A /* NXDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NXDebug.h; path = Vendor/NXJSON/NXDebug.h; sourceTree = "<group>"; };
@@ -831,7 +831,7 @@
 				253A080C12551D3000976E89 /* libRestKitSupport.a */,
 				253A081412551D5300976E89 /* libRestKitCoreData.a */,
 				3F6C39A510FE5C95008F47C5 /* UISpec.app */,
-				20808DBD13DE8CDC000A156A /* libRestKitJSONParser+NXJSON.a */,
+				20808DBD13DE8CDC000A156A /* libRestKitJSONParserNXJSON.a */,
 			);
 			name = Products;
 			path = ../..;
@@ -1713,7 +1713,7 @@
 			);
 			name = "RestKitJSONParser+NXJSON";
 			productName = "RestKitJSONParser+NSJSON";
-			productReference = 20808DBD13DE8CDC000A156A /* libRestKitJSONParser+NXJSON.a */;
+			productReference = 20808DBD13DE8CDC000A156A /* libRestKitJSONParserNXJSON.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		2523360411E79F090048F9B4 /* RestKitThree20 */ = {
@@ -1895,7 +1895,7 @@
 		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0440;
 				ORGANIZATIONNAME = RestKit;
 			};
 			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "RestKit" */;
@@ -2365,7 +2365,7 @@
 				GCC_PREFIX_HEADER = "";
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = Vendor/NSJSON;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_LDFLAGS = (
@@ -2386,7 +2386,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "";
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = Vendor/NSJSON;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_LDFLAGS = (
@@ -2407,7 +2407,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "";
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = Vendor/NSJSON;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_LDFLAGS = (

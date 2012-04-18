@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0430"
+   LastUpgradeVersion = "0440"
    version = "1.8">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,6 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "255B7588133BABBF00ED76AD"
+               BuildableName = "RestKit"
                BlueprintName = "RestKit"
                ReferencedContainer = "container:RestKit">
             </BuildableReference>
@@ -32,6 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
+            BuildableName = "RestKit"
             BlueprintName = "RestKit"
             ReferencedContainer = "container:RestKit">
          </BuildableReference>
@@ -52,6 +54,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
+            BuildableName = "RestKit"
             BlueprintName = "RestKit"
             ReferencedContainer = "container:RestKit">
          </BuildableReference>

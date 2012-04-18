@@ -56,21 +56,21 @@
     // e.g. self.myOutlet = nil;
 }
 
-- (void)login:(id)sender {
+- (void)login {
     LoginViewController *lVC = [[LoginViewController alloc] init];
     [self.navigationController pushViewController:lVC animated:YES];
 }
 
-- (void)registerAccount:(id)sender {
+- (void)registerAccount {
     RegisterViewController *rVC = [[RegisterViewController alloc] init];
     [self.navigationController pushViewController:rVC animated:YES];
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     if (indexPath.row == 0) {
-        [self login:[self.menuItems objectAtIndex:0]];
+        [self login];
     } else if (indexPath.row == 1) {
-        [self registerAccount:[self.menuItems objectAtIndex:1]];
+        [self registerAccount];
     }
 
 }

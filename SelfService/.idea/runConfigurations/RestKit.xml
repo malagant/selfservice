@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="RestKit" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="RestKit" PROJECT_NAME="RestKit" TARGET_NAME="RestKit" CONFIG_NAME="Debug" DESTINATION_ID="iphoneos_IPHONE_C39GGQ3UDTDV" DEBUGGER="LLDB" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+  <configuration default="false" name="RestKit" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="RestKit" PROJECT_NAME="RestKit" TARGET_NAME="RestKit" CONFIG_NAME="Debug" DESTINATION_ID="iphoneos_IPHONE_C39GGQ3UDTDV" RUN_TARGET_PROJECT_NAME="RestKit" RUN_TARGET_NAME="RestKit" DEBUGGER="LLDB" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
     <envs />
     <method />
   </configuration>

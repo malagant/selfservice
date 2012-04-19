@@ -63,11 +63,10 @@
     }
     RKLogConfigureByName("RestKit/Network", RKLogLevelTrace);
 
-    [RKObjectManager objectManagerWithBaseURL:@"http://rails-experts.local:8080/selfservice/api"];
+    [RKObjectManager objectManagerWithBaseURL:@"http://rails-experts.local:8080/jax.server/rest"];
     // RestKit Mappings initialisieren
     [RegistrationDTO initMapping:[RKObjectManager sharedManager]];
 
-    // Override point for customization after application launch.
     self.mainViewController = [[MainViewController alloc] initWithNibName:@"MainViewController" bundle:nil];
 
     UINavigationController *nVC = [[UINavigationController alloc] initWithRootViewController:self.mainViewController];

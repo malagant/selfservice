@@ -314,7 +314,7 @@
 		CFD4765C14FF751900E3ABBE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0440;
 			};
 			buildConfigurationList = CFD4765F14FF751900E3ABBE /* Build configuration list for PBXProject "SelfService" */;
 			compatibilityVersion = "Xcode 3.2";
